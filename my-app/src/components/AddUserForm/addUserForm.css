@@ -1,0 +1,28 @@
+
+input:not([type='checkbox']),textarea, button {
+    background-color: rgb(27, 27, 27);
+    margin-bottom: 10px;
+    border: 0;
+    color: #fff;
+    outline: none;
+    width: 100%;
+    padding: 15px 5%;
+    font-size: 15px;
+}
+input[type='checkbox']{
+    margin: 10px;
+    margin-bottom: 20px;
+}
+button{
+    cursor: pointer;
+    transition: transform 500ms ease;
+}
+button:hover {
+    background-color: black;
+    opacity: 0.5;
+}
+.user input,
+.user textarea,
+.user button {
+    background-color: rgb(34, 34, 34);
+}

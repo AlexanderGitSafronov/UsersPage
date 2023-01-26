@@ -1,0 +1,27 @@
+.user {
+    background-color: rgb(13, 112, 129);
+    margin-bottom: 20px;
+    padding: 10px 30px;
+    display: grid;
+    row-gap: 5px;
+}
+h5 {
+    padding-bottom: 10px;
+}
+
+.icon {
+    display: flex;
+    justify-content: flex-end;
+}
+.edit-icon{
+    margin-right: 10px;
+    cursor: pointer;
+}
+.delete-icon {
+    cursor: pointer;
+}
+.edit-icon:hover,
+.delete-icon:hover {
+    opacity: 0.5;
+    scale: 1.1;
+}
